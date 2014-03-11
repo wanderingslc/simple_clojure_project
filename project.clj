@@ -21,7 +21,8 @@
      com.sun.jmx/jmxri]]
    [lib-noir "0.8.0"]
    [compojure "1.1.6"]
-   [selmer "0.5.9"]]
+   [selmer "0.5.9"]
+   [clj-facebook-graph "0.4.0"]]
   :ring
   {:handler guestbook.handler/app,
    :init guestbook.handler/init,

@@ -8,7 +8,8 @@
             [taoensso.timbre.appenders.rotor :as rotor]
             [selmer.parser :as parser]
             [environ.core :refer [env]]
-            [guestbook.models.schema :as schema]))
+            [guestbook.models.schema :as schema]
+            '(clj-facebook-graph [client :as client])))
 
 (defroutes app-routes
   (route/resources "/")
