@@ -1,6 +1,6 @@
 # guestbook
 
-FIXME
+Simple project to get started with clojure and work on integrating with Facebook. 
 
 ## Prerequisites
 
